@@ -127,6 +127,7 @@ button:active {
 
 .header__img--wrapper {
   padding: 20px;
+  z-index: 2;
 }
 
 .container {
@@ -173,7 +174,6 @@ button:active {
 .highlight__wrapper {
   display: flex;
   text-align: center;
-  z-index: 2;
 }
 
 
