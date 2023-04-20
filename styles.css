@@ -276,11 +276,12 @@ button:active {
   width: 100%;
   margin: 0 auto;
   display: flex;
-  align-items: center;
-  background-color:#fabf2a;
+  background-color:rgba(115, 66, 214, 0.1);
   max-width: 100%;
-  padding: 24px 24px;
+  padding: 0 24px;
   justify-content: center;
+  text-align: center;
+
 }
 
 
@@ -297,5 +298,31 @@ button:active {
   border: 0;
   font-size: 20px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
+footer{
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:lightslategray;
+}
+.logo-footer{
+  width: 200px;
+  margin-top: 50px;
+  margin-bottom: 24px;
+}
+
+.footer__link{
+  display: flex;
+  padding: 12px 24px;
+ font-size: 24px;
+ font-weight: 700;
+}
+
+.disclaimer{
+  padding: 12px;
+  font-weight: bold;
+  
+}
