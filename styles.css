@@ -261,7 +261,12 @@ button:active {
   color: #bfbfbf;
 }
 
+#recent{
+  padding-top: 2vw;
+  background-color:white;
+}
 
-.recent{
-  height: 100%;
+.books_row{
+  display: flex;
+  flex-wrap: wrap;
 }
